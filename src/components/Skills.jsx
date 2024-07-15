@@ -65,7 +65,7 @@ export default function Skills(){
                     {experience.map(({id, img, title, style})=>(
 
                         <div key={id} className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                            <img src ={img} className='w-20 mx-auto' style={{minHeight:"80px", maxHeight:'80px'}}/>
+                            <img src ={img} className='w-10 sm:w-20 mx-auto' />
                             <p className='mt-4'>{title}</p>
                         </div>
                     ))}
