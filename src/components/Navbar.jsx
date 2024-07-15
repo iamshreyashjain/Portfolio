@@ -11,13 +11,14 @@ export default function Navbar(){
             id: 2,
             link : 'About'
         },
+   
         {
             id: 3,
-            link : 'Skills'
+            link : 'Portfolio'
         },
         {
             id: 4,
-            link : 'Portfolio'
+            link : 'Skills'
         },
         {
             id: 5,
