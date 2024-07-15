@@ -29,9 +29,7 @@
 
 /* Small devices (phones and small tablets) */
 @media only screen and (max-width: 768px) and (min-width: 576px){
- .ids{
-    margin-top: 20px;
- }
+ 
 }
 
 

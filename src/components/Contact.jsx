@@ -1,15 +1,15 @@
 export default function Contact(){
     return(
         <>
-        <div name="experience"
-                 className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"> 
-                <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+        <div name="Contact"
+                 className="w-full h-screen bg-gradient-to-b from-gray-800 to-black "> 
+                <div className="max-w-screen-lg  mx-auto p-4 flex flex-col justify-center  h-full text-white">
                     <div>
                         <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Contact</p>
                         <p className="py-6">Let's get connect</p>
                     </div>
                     <div className="flex justify-center items-center">
-                    <form action="" className="flex flex-col w-full md:w-1/2 gap-3">
+                    <form action="https://getform.io/f/bqonkgyb" method="POST" className="flex flex-col w-full md:w-1/2 gap-3">
                         <input type="text"
                             name="name"
                             placeholder="Enter your name"
