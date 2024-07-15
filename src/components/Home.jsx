@@ -8,7 +8,7 @@ export default function Home(){
                 <div className='md:flex-row max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 text-white'>
                     <div className='flex flex-col justify-center ' >
                         <h2 className='text-4xl sm:text-7xl mt-32'>I am React  Developer</h2>
-                        <p className='text-gray-500  max-w-md py-4'>
+                        <p className='text-gray-500  max-w-md py-4 indent-8'>
                             I aspire to work in an organization where I can effectively utilize my knowledge, talent, dedication, and hard work. 
                             My goal is to continually improve and enhance my skills, allowing me to contribute meaningfully and deliver my best performance.
                         </p>

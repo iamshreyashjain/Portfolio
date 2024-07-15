@@ -27,8 +27,7 @@ export default function Contact(){
                             placeholder = "Enter your message">
                         </textarea>
                         <button 
-                            className="text-white bg-gradient-to-t from-cyan-500 to-blue-500 px-5 py-3 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
-                            
+                            className="text-white bg-gradient-to-t from-cyan-500 to-blue-500 px-5 py-3 mx-auto flex w-full justify-center items-center  rounded-md hover:scale-110 duration-300"
                         >
                         Let's Connect
                         </button>

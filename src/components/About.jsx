@@ -4,10 +4,10 @@ export default function About(){
             <div name="About" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
                 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">About</p>
+                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
                 </div>
                 <div>
-                    <p className="text-xl ">
+                    <p className="text-xl indent-8">
                         Aspiring Frontend Developer with a strong educational background and practical experience in creating
                         dynamic and responsive web applications. Recently completed a Master's degree 
                         and currently interning at Crimsons System. Proficient in modern frontend technologies
