@@ -11,7 +11,6 @@ export default function Contact() {
       alert("Please fill out all fields before submitting.");
       return;
     }
-    // If all fields are filled, you can proceed with form submission
     e.target.submit();
   };
 
@@ -61,7 +60,7 @@ export default function Contact() {
               ></textarea>
               <button
                 type="submit"
-                className="text-white bg-gradient-to-t from-cyan-500 to-blue-500 px-5 py-3 mx-auto flex w-full justify-center items-center rounded-md hover:scale-110 duration-300"
+                className="text-white bg-gradient-to-t from-cyan-500 to-blue-500 px-5 py-3 mx-auto flex w-full justify-center items-center rounded-md sm:hover:scale-110  duration-300"
               >
                 Let's Connect
               </button>
