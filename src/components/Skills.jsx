@@ -1,6 +1,6 @@
 import HTML from './../assets/HTML.png'
 import CSS from './../assets/CSS.png'
-import JS from './../assets/jss.png'
+import JS from './../assets/JS.png'
 import Bootstrap from './../assets/bootstrapTwo.png'
 import ReactIcon from './../assets/React-icon.png'
 import Tailwind from './../assets/tw2.png'
@@ -30,13 +30,13 @@ export default function Skills(){
             id: 5,
             img : ReactIcon,
             title : 'React',
-            style : 'shadow-teal-500'
+            style : 'shadow-cyan-500'
         },
         {
             id: 4,
             img : Bootstrap,
             title : 'Bootstrap',
-            style : 'shadow-violet-600'
+            style : 'shadow-purple-600'
         },
        
         {
@@ -49,7 +49,7 @@ export default function Skills(){
             id: 7,
             img : GitHub,
             title : 'GitHub',
-            style : 'shadow-purple-600'
+            style : 'shadow-violet-600'
         },
 ]
     return(
@@ -61,11 +61,11 @@ export default function Skills(){
                         <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Skills</p>
                         <p className="py-6">These are the Technologies I have worked with</p>
                     </div>
-                    <div className="w-full grid grid-cols-3 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+                    <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
                     {experience.map(({id, img, title, style})=>(
 
                         <div key={id} className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                            <img src ={img} className='w-10 h-10 mt-2 sm:h-20 sm:w-20 mx-auto' />
+                            <img src ={img} className='w-15 h-12 mt-2 sm:h-20 sm:w-20 mx-auto' />
                             <p className='mt-4 truncate text-xs  sm:text-xl'>{title}</p>
                         </div>
                     ))}
