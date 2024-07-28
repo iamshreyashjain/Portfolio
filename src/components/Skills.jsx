@@ -55,7 +55,7 @@ export default function Skills(){
     return(
         <>
             <div name="Skills"
-                 className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"> 
+                 className="w-full min-h-screen bg-gradient-to-b from-black via-black to-gray-800"> 
                 <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                     <div>
                         <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Skills</p>
@@ -70,6 +70,8 @@ export default function Skills(){
                         </div>
                     ))}
                     </div>
+
+                    
                 </div>                
 
             </div>
