@@ -5,6 +5,8 @@ import Bootstrap from './../assets/bootstrapTwo.png'
 import ReactIcon from './../assets/React-icon.png'
 import Tailwind from './../assets/tw2.png'
 import GitHub from './../assets/github.png'
+import Git from './../assets/git.png'
+import MySQL from './../assets/MySQL.png'
 
 export default function Skills(){
     const experience = [
@@ -50,6 +52,18 @@ export default function Skills(){
             img : GitHub,
             title : 'GitHub',
             style : 'shadow-violet-600'
+        },
+        {
+            id: 8,
+            img : Git,
+            title : 'Git',
+            style : 'shadow-orange-600'
+        },
+        {
+            id: 9,
+            img : MySQL,
+            title : 'MySQL',
+            style : 'shadow-blue-600'
         },
 ]
     return(
