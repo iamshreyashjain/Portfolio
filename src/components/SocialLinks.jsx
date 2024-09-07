@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import { VscCallOutgoing } from "react-icons/vsc";
 
 export default function SocialLinks() {
     const links = [
@@ -23,6 +24,7 @@ export default function SocialLinks() {
             href: "https://github.com/iamshreyashjain",
             style: "",
         },
+        
         {
             id: 3,
             child: (
@@ -31,6 +33,15 @@ export default function SocialLinks() {
                 </>
             ),
             href: "mailto:shreyashJain41@gmail.com",
+            style: "",
+        },{
+            id: 4,
+            child: (
+                <>
+                    Call <VscCallOutgoing size={30} />
+                </>
+            ),
+            href: "tel:9407161423",
             style: "rounded-br-md",
         },
     ];

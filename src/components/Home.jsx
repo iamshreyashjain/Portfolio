@@ -37,9 +37,9 @@ export default function Home() {
 
                     <div className='w-2/3 md:w-2/4 mx-auto'>
                         {isLoading ? (
-                            <div className='animate-pulse bg-gray-500 rounded-2xl w-2/3  h-64 md:h-80'></div>
+                            <div className='animate-pulse bg-gray-500 rounded-2xl max-w-72  h-64 md:h-80'></div>
                         ) : (
-                            <img src={portfolio} className='rounded-2xl  h-64 md:h-80' />
+                            <img src={portfolio} className='rounded-2xl max-w-80 h-64 md:h-80' />
                         )}
                     </div>
                 </div>
