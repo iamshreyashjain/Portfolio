@@ -7,6 +7,7 @@ import Tailwind from './../assets/tw2.png'
 import GitHub from './../assets/github.png'
 import Git from './../assets/git.png'
 import MySQL from './../assets/MySQL.png'
+import Redux from './../assets/redux.png'
 
 export default function Skills(){
     const experience = [
@@ -35,17 +36,22 @@ export default function Skills(){
             style : 'shadow-cyan-500'
         },
         {
-            id: 4,
-            img : Bootstrap,
-            title : 'Bootstrap',
+            id: 10,
+            img : Redux,
+            title : 'Redux',
             style : 'shadow-purple-600'
         },
-       
         {
             id: 6,
             img : Tailwind,
             title : 'Tailwind',
             style : 'shadow-teal-600'
+        },
+        {
+            id: 4,
+            img : Bootstrap,
+            title : 'Bootstrap',
+            style : 'shadow-purple-600'
         },
         {
             id: 7,
@@ -65,6 +71,7 @@ export default function Skills(){
             title : 'MySQL',
             style : 'shadow-blue-600'
         },
+       
 ]
     return(
         <>
@@ -84,10 +91,7 @@ export default function Skills(){
                         </div>
                     ))}
                     </div>
-
-                    
-                </div>                
-
+                </div>
             </div>
         </>
     )
