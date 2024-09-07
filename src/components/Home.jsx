@@ -39,7 +39,7 @@ export default function Home() {
                         {isLoading ? (
                             <div className='animate-pulse bg-gray-500 rounded-2xl max-w-72  h-64 md:h-80'></div>
                         ) : (
-                            <img src={portfolio} className='rounded-2xl max-w-80 h-64 md:h-80' />
+                            <img src={portfolio} className='rounded-2xl max-w-72 h-64 md:h-80' />
                         )}
                     </div>
                 </div>

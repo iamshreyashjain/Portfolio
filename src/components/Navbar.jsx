@@ -28,7 +28,7 @@ export default function Navbar(){
     const [nav, setNav] = useState(false)
     return(
         <>
-        <div className="flex justify-between items-center w-full h-24  text-white bg-black fixed px-4">
+        <div className="flex justify-between items-center w-full h-24  text-white bg-black fixed px-4 z-20">
             <div>
                 <h1 className="text-4xl font-heading ml-2">Shreyash</h1>
             </div>
