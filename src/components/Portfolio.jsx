@@ -1,8 +1,15 @@
 import eComm from './../assets/eComm.png'
 import todoApp from './../assets/TodoApp.png'
+import CRM from './../assets/CRM.jpeg'
 
 export default function Portfolio() {
     const portfolios = [
+        {
+            id: 3,
+            src: CRM,
+            vercelLink: 'https://igniculusscrm.com/',
+            gitLink: 'NOT AVAILABLE'
+        },
         {
             id: 1,
             src: eComm,
@@ -15,6 +22,7 @@ export default function Portfolio() {
             vercelLink: 'https://todoapp-lac-ten.vercel.app',
             gitLink: 'https://github.com/iamshreyashjain/todoApp'
         },
+       
     ];
 
     return (
@@ -28,7 +36,7 @@ export default function Portfolio() {
                     <div className='grid sm:grid-cols-2 md:grid-cols-3 cols-4 gap-8 px-12 sm:px-0'>
                         {portfolios.map(({ id, src, vercelLink, gitLink }) => (
                             <div className='shadow-md shadow-gray-400 rounded-lg overflow-hidden' key={id}>
-                                <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
+                                <img src={src} alt="" className='rounded-top duration-200 hover:scale-105 hover:animate-pulse	' />
                                 <div className='flex items-center justify-center'>
                                     <a href={vercelLink} target="_blank" >
                                         <button className='w-1/2 px-6 py-3 shadow-md m-4 duration-200 hover:scale-105'>Demo</button>

@@ -78,7 +78,7 @@ export default function Skills(){
                     <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
                     {experience.map(({id, img, title, style})=>(
 
-                        <div key={id} className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                        <div key={id} className={`shadow-lg hover:scale-105 hover:animate-pulse duration-500 py-2 rounded-lg ${style}`}>
                             <img src ={img} className='w-15 h-12 mt-2 sm:h-20 sm:w-20 mx-auto' />
                             <p className='mt-4 truncate text-xs  sm:text-xl'>{title}</p>
                         </div>
