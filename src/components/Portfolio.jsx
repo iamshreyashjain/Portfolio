@@ -1,5 +1,5 @@
 import eComm from './../assets/Projects/eComm.png'
-import todoApp from './../assets/Projects/TodoApp.png'
+import todoApp from './../assets/Projects/todoApp.png'
 import CRM from './../assets/Projects/CRM.jpeg'
 
 export default function Portfolio() {
@@ -19,8 +19,8 @@ export default function Portfolio() {
         {
             id: 2,
             src: todoApp,
-            vercelLink: 'https://todoapp-lac-ten.vercel.app',
-            gitLink: 'https://github.com/iamshreyashjain/todoApp'
+            vercelLink: 'https://todo-plus-sable.vercel.app/',
+            gitLink: 'https://github.com/iamshreyashjain/TodoPlus'
         },
        
     ];
