@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import portfolio from './../assets/portfolioImg.jpg';
-import ShreyashJain_Resume from './../assets/ShreyashJain_Resume.pdf';
+import ShreyashJain_Resume from './../assets/Resume/ShreyashJain_Resume.pdf';
 import { IoDocumentTextOutline } from "react-icons/io5";
 
 export default function Home() {

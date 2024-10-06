@@ -1,13 +1,16 @@
-import HTML from './../assets/HTML.png'
-import CSS from './../assets/CSS.png'
-import JS from './../assets/JS.png'
-import Bootstrap from './../assets/bootstrapTwo.png'
-import ReactIcon from './../assets/React-icon.png'
-import Tailwind from './../assets/tw2.png'
-import GitHub from './../assets/github.png'
-import Git from './../assets/git.png'
-import MySQL from './../assets/MySQL.png'
-import Redux from './../assets/redux.png'
+import HTML from './../assets/Skills/HTML.png'
+import CSS from './../assets/Skills/CSS.png'
+import JS from './../assets/Skills/JS.png'
+import Bootstrap from './../assets/Skills/bootstrapTwo.png'
+import ReactIcon from './../assets/Skills/React-icon.png'
+import Tailwind from './../assets/Skills/tw2.png'
+import GitHub from './../assets/Skills/github.png'
+import Git from './../assets/Skills/git.png'
+import MySQL from './../assets/Skills/MySQL.png'
+import Redux from './../assets/Skills/redux.png'
+import Firebase from './../assets/Skills/fireBase.png'
+import DotNet from './../assets/Skills/DotNet.png'
+import MSSqL from './../assets/Skills/MSSqL.png'
 
 export default function Skills(){
     const experience = [
@@ -30,17 +33,26 @@ export default function Skills(){
             style : 'shadow-yellow-500'
         },
         {
+            id: 11,
+            img : DotNet,
+            title : 'DotNet',
+            style : 'shadow-blue-600'
+        },
+       
+        {
             id: 5,
             img : ReactIcon,
             title : 'React',
             style : 'shadow-cyan-500'
         },
+
         {
             id: 10,
             img : Redux,
             title : 'Redux',
             style : 'shadow-purple-600'
         },
+       
         {
             id: 6,
             img : Tailwind,
@@ -53,12 +65,20 @@ export default function Skills(){
             title : 'Bootstrap',
             style : 'shadow-purple-600'
         },
+    
         {
             id: 7,
             img : GitHub,
             title : 'GitHub',
             style : 'shadow-violet-600'
         },
+        {
+            id: 10,
+            img : Firebase,
+            title : 'Firebase',
+            style : 'shadow-blue-600'
+        },
+      
         {
             id: 8,
             img : Git,
@@ -72,6 +92,15 @@ export default function Skills(){
             style : 'shadow-blue-600'
         },
        
+       
+        {
+            id: 9,
+            img : MSSqL,
+            title : 'MSSqL',
+            style : 'shadow-red-600'
+        },
+       
+       
 ]
     return(
         <>
@@ -83,9 +112,9 @@ export default function Skills(){
                         <p className="py-6">These are the Technologies I have worked with</p>
                     </div>
                     <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
-                    {experience.map(({id, img, title, style})=>(
+                    {experience.map(({ img, title, style}, index)=>(
 
-                        <div key={id} className={`shadow-lg hover:scale-105  hover:animate-pulse duration-500 py-2 rounded-lg ${style}`}>
+                        <div key={index} className={`shadow-lg hover:scale-105  hover:animate-pulse duration-500 py-2 rounded-lg ${style}`}>
                             <img src ={img} className='w-15 h-12 mt-2 sm:h-20 sm:w-20 mx-auto' />
                             <p className='mt-4 truncate text-xs  sm:text-xl'>{title}</p>
                         </div>

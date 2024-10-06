@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      
     },
+   
 
     fontFamily : {
       heading: ['Playwrite CL']
