@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Portfolio from './components/Portfolio'
 import SocialLinks from './components/SocialLinks'
 import Tools from './components/Tools'
+import Notification from '../Notification'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+    <Notification/>
     <Navbar/>
     <Home/>
     <SocialLinks/>
