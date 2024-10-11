@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 
 import './App.css'
 import About from './components/About'
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+    <Analytics />
     <Notification/>
     <Navbar/>
     <Home/>
