@@ -17,8 +17,6 @@ function App() {
 
   return (
     <>
-    
-    <Notification/>
     <Navbar/>
     <Home/>
     <SocialLinks/>
