@@ -3,7 +3,6 @@ import TodoApp from './../assets/Projects/TodoApp.png'
 import CRM from './../assets/Projects/CRM.jpeg'
 
 export default function Portfolio() {
-    
     const portfolios = [
         {
             id: 3,
