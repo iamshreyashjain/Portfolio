@@ -3,13 +3,14 @@ import TodoApp from './../assets/Projects/TodoApp.png'
 import CRM from './../assets/Projects/CRM.jpeg'
 
 export default function Portfolio() {
+    
     const portfolios = [
         {
             id: 3,
             src: CRM,
             vercelLink: 'https://igniculusscrm.com/',
             gitLink: 'https://igniculusscrm.com/',
-            
+
         },
         {
             id: 1,
