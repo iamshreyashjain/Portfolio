@@ -32,12 +32,12 @@ export default function Skills(){
             title : 'JavaScript',
             style : 'shadow-yellow-500'
         },
-        {
-            id: 11,
-            img : DotNet,
-            title : 'DotNet',
-            style : 'shadow-blue-600'
-        },
+        // {
+        //     id: 11,
+        //     img : DotNet,
+        //     title : 'DotNet',
+        //     style : 'shadow-blue-600'
+        // },
        
         {
             id: 5,
@@ -93,12 +93,12 @@ export default function Skills(){
         },
        
        
-        {
-            id: 9,
-            img : MSSqL,
-            title : 'MSSqL',
-            style : 'shadow-red-600'
-        },
+        // {
+        //     id: 9,
+        //     img : MSSqL,
+        //     title : 'MSSqL',
+        //     style : 'shadow-red-600'
+        // },
        
        
 ]
