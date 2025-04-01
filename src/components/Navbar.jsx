@@ -28,26 +28,26 @@ export default function Navbar(){
     const [nav, setNav] = useState(false)
     return(
         <>
-        <div className="flex justify-between items-center w-full h-24  text-white bg-black fixed px-4 z-20">
+        <div className="fixed z-20 flex items-center justify-between w-full h-24 px-4 bg-stone-900">
             <div>
-                <h1 className="text-4xl font-heading ml-2">Shreyash</h1>
+                <h1 className="ml-2 text-4xl text-gray-200 font-heading">Shreyash</h1>
             </div>
             <ul className="hidden md:flex">
             {links.map(({id, link})=>(
-                <li key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200" >
+                <li key={id} className="px-4 font-medium text-gray-200 capitalize duration-200 cursor-pointer hover:scale-105" >
                     <Link to ={link} smooth duration={500} onClick={()=>console.log('clicked')}>{link}</Link>
                 </li>
             ))}
             </ul>
             
-            <div onClick={()=>setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+            <div onClick={()=>setNav(!nav)} className="z-10 pr-4 text-gray-100 cursor-pointer md:hidden">
             {nav ? <FaTimes size={30}/> : <FaBars size={30}/>}
             </div>
             
             {nav &&
-            <ul className="flex flex-col justify-center items-center absolute top-0 right-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+            <ul className="absolute top-0 right-0 flex flex-col items-center justify-center w-full h-screen bg-gray-300 text-stone-800">
             {links.map(({id, link})=>(
-                <li key={id} className="py-4 text-5xl cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200" >
+                <li key={id} className="py-4 text-5xl font-medium text-gray-500 capitalize duration-200 cursor-pointer hover:scale-105" >
                     <Link to ={link} smooth duration={600} onClick={()=>(setNav(false))} >{link}</Link>
                 </li>
             ))}

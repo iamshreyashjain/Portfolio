@@ -3,16 +3,15 @@ export default function About() {
     <>
       <div
         name="About"
-        className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white md:mt-0 sm:mt-8"
+        className="w-full h-screen text-white bg-gradient-to-b from-gray-300 via-stone-50 to-gray-200 md:mt-0 sm:mt-8"
       >
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
+        <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto ">
           <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-              About
-            </p>
+          <p className="inline text-4xl font-bold text-gray-700 border-b-4 border-gray-500">About</p>
+
           </div>
           <div>
-            <p className="md:text-xl text-sm indent-8">
+            <p className="text-sm text-gray-700 md:text-xl indent-8">
               As a passionate and skilled Frontend Developer, I am driven by a
               commitment to creating seamless, user-friendly web experiences.
               With a strong foundation in modern web technologies such as
