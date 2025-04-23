@@ -2,7 +2,7 @@ import HTML from './../../assets/Images/SkillsImages/HTML.png'
 import CSS from './../../assets/Images/SkillsImages/CSS.png'
 import JS from './../../assets/Images/SkillsImages/JS.png'
 import ReactIcon from './../../assets/Images/SkillsImages/ReactIcon.png'
-
+import Redux from './../../assets/Images/SkillsImages/Redux.png'
 import Tailwind from './../../assets/Images/SkillsImages/Tailwind.png'
 import Bootstrap from './../../assets/Images/SkillsImages/Bootstrap.png'
 import Firebase from './../../assets/Images/SkillsImages/Firebase.png'
@@ -36,12 +36,12 @@ export default function Skills() {
             title: 'React',
             style: 'shadow-cyan-500'
         },
-        // {
-        //     id: 10,
-        //     img: Redux,
-        //     title: 'Redux',
-        //     style: 'shadow-purple-600'
-        // },
+        {
+            id: 10,
+            img: Redux,
+            title: 'Redux',
+            style: 'shadow-purple-600'
+        },
         {
             id: 6,
             img: Tailwind,
