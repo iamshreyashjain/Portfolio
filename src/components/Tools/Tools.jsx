@@ -3,6 +3,7 @@ import Postman from './../../assets/Images/ToolsImages/Postman.png'
 import swagger from './../../assets/Images/ToolsImages/swagger.png'
 import GitHub from './../../assets/Images/SkillsImages/GitHub.png'
 import Git from './../../assets/Images/SkillsImages/Git.png'
+import Jira from './../../assets/Images/ToolsImages/Jira.png'
 
 export default function Tools() {
     const experience = [
@@ -10,7 +11,7 @@ export default function Tools() {
             id: 1,
             img: VSCode,
             title: 'VS Code',
-            style: 'shadow-blue-600'
+            style: 'shadow-blue-400'
         },
         {
             id: 2,
@@ -35,6 +36,11 @@ export default function Tools() {
             img: Git,
             title: 'Git',
             style: 'shadow-orange-600'
+        }, {
+            id: 9,
+            img: Jira,
+            title: 'Jira-Scrum',
+            style: 'shadow-blue-400'
         },
 
     ]
@@ -53,8 +59,8 @@ export default function Tools() {
                     <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
                         {experience.map(({ img, title, style }, index) => (
 
-                            <div key={index} className={`shadow-lg hover:scale-105  hover:animate-pulse  duration-500 py-2 rounded-lg ${style}`}>
-                                <div className=''>
+                            <div key={index} className={`shadow-lg hover:scale-105 bg-gray-100 hover:animate-pulse  duration-500 py-2 rounded-lg ${style}`}>
+                                <div >
                                     <img src={img} className='w-15 h-12 mt-2 sm:h-20 sm:w-20 mx-auto ' />
                                     <p className='mt-4 truncate text-xs  sm:text-xl text-gray-900'>{title}</p>
                                 </div>
