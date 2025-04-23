@@ -18,14 +18,14 @@ export default function Contact() {
     <>
       <div
         name="Contact"
-        className="w-full h-screen bg-gradient-to-b from-gray-800 via-black to-black"
-      >
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-white">
-          <div>
-            <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+        className="w-full text-white bg-gradient-to-b from-gray-200 via-stone-50 to-gray-200 md:h-screen"
+        >
+                 <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-white">
+                 <div>
+          <p className="inline text-4xl font-bold text-gray-700 border-b-4 border-gray-500">  
               Contact
             </p>
-            <p className="py-6">Let's get connect</p>
+            <p className="py-6 text-gray-900">Let's get connect</p>
           </div>
           <div className="flex justify-center items-center">
             <form
@@ -38,7 +38,7 @@ export default function Contact() {
                 type="text"
                 name="name"
                 placeholder="Enter your name"
-                className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                className="p-2 bg-transparent border border-gray-400 rounded-sm rounded-md text-white focus:outline-none"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -46,23 +46,23 @@ export default function Contact() {
                 type="text"
                 name="email"
                 placeholder="Enter your email"
-                className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                className="p-2 bg-transparent border border-gray-400 rounded-sm text-white focus:outline-none"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <textarea
                 name="message"
                 rows="10"
-                className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+                className="p-2 bg-transparent border border-gray-400 rounded-sm rounded-md text-white focus:outline-none"
                 placeholder="Enter your message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
               <button
                 type="submit"
-                className="text-white bg-gradient-to-t from-cyan-500 to-blue-500 px-5 py-3 mx-auto flex w-full justify-center items-center rounded-md md:hover:scale-110  duration-300"
-              >
-                Let's Connect
+                className='flex items-center justify-center px-6 py-3 my-4 cursor-pointer group  bg-gradient-to-tl from-gray-700 via-gray-500  to-stone-700 rounded-xl w-full'>
+                Send
+              
               </button>
             </form>
           </div>

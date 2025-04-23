@@ -1,30 +1,10 @@
-import { useState } from "react"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Link } from "react-scroll"
+
+import links from "../../assets/Data/NavbarLinks/NavbarLinks"
+import { useState } from "react"
 export default function Navbar(){
-    const links = [
-        {
-            id: 1,
-            link : 'Home'
-        },
-        {
-            id: 2,
-            link : 'About'
-        },
    
-        {
-            id: 3,
-            link : 'Portfolio'
-        },
-        {
-            id: 4,
-            link : 'Skills'
-        },
-        {
-            id: 5,
-            link : 'Contact'
-        },
-    ]
     const [nav, setNav] = useState(false)
     return(
         <>
@@ -35,7 +15,7 @@ export default function Navbar(){
             <ul className="hidden md:flex">
             {links.map(({id, link})=>(
                 <li key={id} className="px-4 font-medium text-gray-200 capitalize duration-200 cursor-pointer hover:scale-105" >
-                    <Link to ={link} smooth duration={500} onClick={()=>console.log('clicked')}>{link}</Link>
+                    <Link to ={link} smooth duration={500} >{link}</Link>
                 </li>
             ))}
             </ul>
