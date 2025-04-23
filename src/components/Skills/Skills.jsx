@@ -38,7 +38,7 @@ export default function Skills() {
         },
         {
             id: 10,
-            img: Redux,
+            img: ReduxLogo,
             title: 'Redux',
             style: 'shadow-purple-600'
         },
