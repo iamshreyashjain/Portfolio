@@ -10,7 +10,7 @@ import Navbar from './components/Navbar/Navbar'
 import Portfolio from './components/Portfolio/Portfolio'
 import SocialLinks from './components/SocialSkills/SocialLinks'
 import Tools from './components/Tools/Tools'
-import Notification from '../Notification'
+
 
 
 function App() {
