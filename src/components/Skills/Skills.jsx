@@ -28,7 +28,7 @@ export default function Skills() {
             id: 3,
             img: JS,
             title: 'JavaScript',
-            style: 'shadow-yellow-500 bg-yellow-800'
+            style: 'shadow-yellow-500 bg-yellow-500'
         },
         {
             id: 5,
@@ -46,7 +46,7 @@ export default function Skills() {
             id: 6,
             img: Tailwind,
             title: 'Tailwind',
-            style: 'shadow-teal-600 bg-cyan-800'
+            style: 'shadow-teal-600 bg-cyan-700'
         },
         {
             id: 4,
@@ -58,14 +58,14 @@ export default function Skills() {
             id: 10,
             img: Firebase,
             title: 'Firebase',
-            style: 'shadow-yellow-600 bg-amber-800'
+            style: 'shadow-yellow-600 bg-amber-700'
         },
        
         {
             id: 9,
             img: MySQL,
             title: 'MySQL',
-            style: 'shadow-blue-600 bg-blue-800'
+            style: 'shadow-blue-600 bg-blue-900'
         },
     ]
     return (
@@ -82,7 +82,7 @@ export default function Skills() {
                     <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center py-8 px-12 sm:px-0  ">
                         {experience.map(({ img, title, style }, index) => (
 
-                            <div key={index} className={`shadow-2xl hover:scale-105 bg-gray-100 hover:animate-pulse duration-500 py-2 rounded-lg ${style}`}>
+                            <div key={index} className={`shadow-2xl hover:scale-105  hover:animate-pulse duration-500 py-2 rounded-lg ${style}`}>
                                 <img src={img} className='w-15 h-12 mt-2 sm:h-20 sm:w-20 mx-auto' />
                                 <p className='mt-4 truncate text-xs  sm:text-xl text-white'>{title}</p>
                             </div>

@@ -8,9 +8,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import './index.css'
+import ProjectDisplayer from "./components/ProjectDisplayer";
 
 const router = createBrowserRouter([
     {path: '/', element: <App/>},
+    {path : '/:id', element : <ProjectDisplayer/> }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
