@@ -11,7 +11,7 @@ import CompanyRegistered from './../../../assets/Images/ProjectsImages/CRM_Image
 
 
 
-const portfolioData = [
+const pd = [
         {
             id: 1,
             src: CRM,
@@ -46,4 +46,4 @@ const portfolioData = [
             title: "E-Commerce Website",
         },
     ];
-export default portfolioData
+export default pd
