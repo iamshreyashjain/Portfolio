@@ -1,4 +1,4 @@
-import portfolioData from '../../assets/Data/PortfolioData/PortfolioData';
+import pd from '../../assets/Data/portfolioData/portfolioData';
 //ReactIcon
 import { MdOpenInNew } from 'react-icons/md';
 
@@ -18,7 +18,7 @@ export default function Portfolio() {
                         <p className="py-6 text-gray-700">Check out some of my work right here</p>
                     </div>
                     <div className='grid gap-8 px-12 sm:grid-cols-2 md:grid-cols-3 cols-4 sm:px-0'>
-                        <PortfolioProp portfolios = {portfolioData}/>
+                        <PortfolioProp portfolios = {pd}/>
                     </div>
                 </div>
             </div>
