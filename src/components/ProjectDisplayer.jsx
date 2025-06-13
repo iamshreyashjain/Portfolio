@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import portfolioData from "../assets/Data/PortfolioData/PortfolioData"
+import portfolioData from "./../assets/Data/PortfolioData/PortfolioData"
 
 export default function ProjectDisplayer() {
     const { id } = useParams()
