@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import portfolioData from "./../assets/Data/PortfolioData/PortfolioData"
+import pd from "./../assets/Data/portfolioData/portfolioData"
 
 export default function ProjectDisplayer() {
     const { id } = useParams()
@@ -9,7 +9,7 @@ export default function ProjectDisplayer() {
     const [activeIndex, setActiveIndex] = useState(0)
 
     useEffect(() => {
-        const result = portfolioData.find(item => item.id === Number(id))
+        const result = pd.find(item => item.id === Number(id))
         if (!result) {
             setNotFound(true)
         } else {
